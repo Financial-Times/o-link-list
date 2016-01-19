@@ -1,0 +1,22 @@
+{
+    "description": "Styles for lists of links",
+    "origamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://github.com/Financial-Times/o-section-head/issues",
+    "supportStatus": "active",
+    "demosDefaults": {
+      "sass": "demos/src/main.scss"
+    },
+    "demos": [
+      {
+        "name": "for_navigation",
+        "description": "A list of links to be used in navigation",
+        "template": "demos/src/navigation-list.mustache"
+      },
+      {
+        "name": "for_an_aside",
+        "description": "A list of links to be used outside of navigation. This demo includes the semantic mark-up for a list and would be appropriate for a non-navigational list of links, as seen in an aside",
+        "template": "demos/src/aside-list.mustache"
+      }
+    ]
+}
