@@ -1,11 +1,9 @@
 @import "o-colors/main";
-@import "o-ft-icons/main";
-
-$o-typography-is-silent: false;
 @import "o-typography/main";
+@import "o-fonts/main";
 
-$o-fonts-is-silent: false;
 @include oFontsInclude(MetricWeb, $weight: bold);
+@include oFontsInclude(MetricWeb, $weight: regular);
 
 @import "src/scss/o-color-usecases";
 
