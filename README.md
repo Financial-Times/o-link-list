@@ -1,4 +1,4 @@
-# o-link-list
+# o-link-list [![Build Status](https://travis-ci.org/Financial-Times/o-link-list.png?branch=master)](https://travis-ci.org/Financial-Times/o-o-link-list)
 
 Styles for lists of links typically used in navigation elements and asides.
 
