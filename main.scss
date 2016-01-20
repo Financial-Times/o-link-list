@@ -38,6 +38,10 @@
   background-size: 10px;
   background-position: right;
   background-repeat: no-repeat;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .o-link-list__item:hover {
