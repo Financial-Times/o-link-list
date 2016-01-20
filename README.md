@@ -39,3 +39,9 @@ In the event that this list is being used in an `<aside>`, `<li>` elements shoul
   </ul>
 </aside>
 ```
+
+## Silent mode
+
+When you're not consuming this module via the build service, by default this module is set to 'silent' - meaning its Sass will not output any CSS classes, only Sass mixins.
+
+When `$o-link-list-is-silent: false;`, the module outputs a set of classes that are also documented in each section

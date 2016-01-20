@@ -1,0 +1,42 @@
+
+// Aside title
+@mixin oLinkListAsideTitle {
+  @include oTypographySans(s);
+  text-transform: uppercase;
+  margin: 8px 0 14px;
+  padding: 0 0 2px;
+}
+
+/* styles used for implementations that use <ol> and <li> */
+@mixin oLinkListItemContainer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin oLinkListItem {
+  @include oTypographySansBold(s);
+  @include oColorsFor(o-link-list__item, text);
+  padding: 2px 8px;
+  display:block;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+
+  // Older browsers: PNG fallback (resized to 10px wide)
+  background-image: url('//image.webservices.ft.com/v1/images/raw/fticon:arrow-right?width=10&format=png&source=o-section-head');
+
+  // Modern browsers: SVG covering the whole size of the element
+  // we declare mutliple backgrounds so that only modern browsers read this property
+  background-image: url('http://image.webservices.ft.com/v1/images/raw/fticon:arrow-right?format=svg&source=o-section-head&tint=%23cec6b9,%23cec6b9'), none;
+  background-size: 10px;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:hover {
+    @include oColorsFor(o-link-list__item--hover);
+  }
+}
