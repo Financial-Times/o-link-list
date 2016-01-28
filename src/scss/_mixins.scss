@@ -1,7 +1,6 @@
 
 // Aside title
 @mixin oLinkListAsideTitle {
-  @include oTypographySans(s);
   text-transform: uppercase;
   margin: 8px 0 14px;
   padding: 0 0 2px;
@@ -15,7 +14,6 @@
 }
 
 @mixin oLinkListItem {
-  @include oTypographySansBold(s);
   @include oColorsFor(o-link-list__item, text);
   padding: 2px 8px;
   display: block;
