@@ -8,7 +8,8 @@
         "travis": "https://api.travis-ci.org/repos/Financial-Times/o-link-list/builds.json"
     },
     "demosDefaults": {
-      "sass": "demos/src/main.scss"
+      "sass": "demos/src/main.scss",
+      "dependencies": "o-fonts@^2.1.0"
     },
     "demos": [
       {
