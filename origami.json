@@ -2,8 +2,8 @@
     "description": "Styles for lists of links",
     "origamiType": "module",
     "origamiVersion": 1,
-    "support": "https://github.com/Financial-Times/o-section-head/issues",
-    "supportStatus": "active",
+    "support": "https://github.com/Financial-Times/o-link-list/issues",
+    "supportStatus": "experimental",
     "ci": {
         "travis": "https://api.travis-ci.org/repos/Financial-Times/o-link-list/builds.json"
     },
