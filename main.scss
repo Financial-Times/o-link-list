@@ -1,9 +1,4 @@
 @import "o-colors/main";
-@import "o-typography/main";
-@import "o-fonts/main";
-
-@include oFontsInclude(MetricWeb, $weight: bold);
-@include oFontsInclude(MetricWeb, $weight: regular);
 
 @import "src/scss/o-color-usecases";
 @import "src/scss/mixins";
