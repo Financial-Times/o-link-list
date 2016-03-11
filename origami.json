@@ -5,7 +5,7 @@
     "support": "https://github.com/Financial-Times/o-link-list/issues",
     "supportStatus": "experimental",
     "ci": {
-        "travis": "https://api.travis-ci.org/repos/Financial-Times/o-link-list/builds.json"
+        "circle": "https://api.travis-ci.org/repos/Financial-Times/o-link-list/builds.json"
     },
     "demosDefaults": {
       "sass": "demos/src/main.scss",
