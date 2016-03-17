@@ -1,26 +1,26 @@
 {
-    "description": "Styles for lists of links",
-    "origamiType": "module",
-    "origamiVersion": 1,
-    "support": "https://github.com/Financial-Times/o-link-list/issues",
-    "supportStatus": "experimental",
-    "ci": {
-        "circle": "https://api.travis-ci.org/repos/Financial-Times/o-link-list/builds.json"
-    },
-    "demosDefaults": {
-      "sass": "demos/src/main.scss",
-      "dependencies": "o-fonts@^2.1.0"
-    },
-    "demos": [
-      {
-        "name": "navigation",
-        "description": "A list of links to be used in navigation",
-        "template": "demos/src/navigation-list.mustache"
-      },
-      {
-        "name": "aside",
-        "description": "A list of links to be used outside of navigation. This demo includes the semantic mark-up for a list and would be appropriate for a non-navigational list of links, as seen in an aside",
-        "template": "demos/src/aside-list.mustache"
-      }
-    ]
+	"description": "Styles for lists of links",
+	"origamiType": "module",
+	"origamiVersion": 1,
+	"support": "https://github.com/Financial-Times/o-link-list/issues",
+	"supportStatus": "experimental",
+	"ci": {
+		"circle": "https://circleci.com/api/v1/project/Financial-Times/o-link-list"
+	},
+	"demosDefaults": {
+		"sass": "demos/src/main.scss",
+		"dependencies": "o-fonts@^2.1.0"
+	},
+	"demos": [
+		{
+		"name": "navigation",
+		"description": "A list of links to be used in navigation",
+		"template": "demos/src/navigation-list.mustache"
+		},
+		{
+		"name": "aside",
+		"description": "A list of links to be used outside of navigation. This demo includes the semantic mark-up for a list and would be appropriate for a non-navigational list of links, as seen in an aside",
+		"template": "demos/src/aside-list.mustache"
+		}
+	]
 }
