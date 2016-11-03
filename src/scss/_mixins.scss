@@ -21,11 +21,11 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 
   // Older browsers: PNG fallback (resized to 10px wide)
-  background-image: url('https://image.webservices.ft.com/v1/images/raw/fticon:arrow-right?width=10&format=png&source=o-section-head');
+  background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/fticon:arrow-right?width=10&format=png&source=o-section-head');
 
   // Modern browsers: SVG covering the whole size of the element
   // we declare mutliple backgrounds so that only modern browsers read this property
-  background-image: url('https://image.webservices.ft.com/v1/images/raw/fticon:arrow-right?format=svg&source=o-section-head&tint=%23cec6b9,%23cec6b9'), none;
+  background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/fticon:arrow-right?format=svg&source=o-section-head&tint=%23cec6b9,%23cec6b9'), none;
   background-size: 10px;
   background-position: right;
   background-repeat: no-repeat;
