@@ -1,7 +1,7 @@
 {
 	"name": "o-link-list",
 	"dependencies": {
-		"o-colors": "^3.3.1"
+		"o-colors": "^4.0.1"
 	},
   "main": [
    "main.scss"
