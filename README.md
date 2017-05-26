@@ -5,9 +5,9 @@ Styles for lists of links typically used in navigation elements and asides.
 - [Usage](#usage)
 	- [Markup](#markup)
 	- [Sass](#sass)
+- [Migration guide](#migration-guide)
 - [Contact](#contact)
 - [Licence](#licence)
-
 
 
 ## Usage
@@ -58,6 +58,11 @@ When you're not consuming this module via the build service, by default this mod
 
 When `$o-link-list-is-silent: false;`, the module outputs a set of classes that are also documented in each section
 
+## Migration guide
+
+### Updating from v1 to v2
+
+V1 -> V2 introduces the new major of o-colors. Updating to this new version will mean updating any other components that you have which are using `o-colors`. There are no other breaking changes in this release.
 
 ---
 
