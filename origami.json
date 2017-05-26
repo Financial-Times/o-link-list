@@ -9,7 +9,7 @@
 	},
 	"demosDefaults": {
 		"sass": "demos/src/main.scss",
-		"dependencies": "o-fonts@^2.1.0"
+		"dependencies": "o-fonts@^3.0.0"
 	},
 	"demos": [
 		{
