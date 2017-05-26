@@ -2,11 +2,21 @@
 
 Styles for lists of links typically used in navigation elements and asides.
 
-## Markup
+- [Usage](#usage)
+	- [Markup](#markup)
+	- [Sass](#sass)
+- [Migration guide](#migration-guide)
+- [Contact](#contact)
+- [Licence](#licence)
+
+
+## Usage
+
+### Markup
 
 The suggested markup used for this module depends on the context within the page.
 
-### Markup for navigational elements
+#### Markup for navigational elements
 
 If the list is a list of links with a navigational purpose then the following markup should be used.
 We suggest avoiding `<li>` in combination with a `<nav>` as it increases the amount of reading a screen reader will do without adding value to the user.
@@ -40,8 +50,29 @@ In the event that this list is being used in an `<aside>`, `<li>` elements shoul
 </aside>
 ```
 
+### Sass
+
 ## Silent mode
 
 When you're not consuming this module via the build service, by default this module is set to 'silent' - meaning its Sass will not output any CSS classes, only Sass mixins.
 
 When `$o-link-list-is-silent: false;`, the module outputs a set of classes that are also documented in each section
+
+## Migration guide
+
+### Updating from v1 to v2
+
+V1 -> V2 introduces the new major of o-colors. Updating to this new version will mean updating any other components that you have which are using `o-colors`. There are no other breaking changes in this release.
+
+---
+
+## Contact
+
+If you have any questions or comments about this component, or need help using it, please either [raise an issue](https://github.com/Financial-Times/o-link-list/issues), visit [#ft-origami](https://financialtimes.slack.com/messages/ft-origami/) or email [Origami Support](mailto:origami-support@ft.com).
+
+----
+
+## Licence
+
+This software is published by the Financial Times under the [MIT licence](http://opensource.org/licenses/MIT).
+
