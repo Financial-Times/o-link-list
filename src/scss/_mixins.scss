@@ -25,7 +25,9 @@
 
   // Modern browsers: SVG covering the whole size of the element
   // we declare mutliple backgrounds so that only modern browsers read this property
+  // sass-lint:disable no-duplicate-properties
   background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/fticon:arrow-right?format=svg&source=o-section-head&tint=%23cec6b9,%23cec6b9'), none;
+  // sass-lint:enable no-duplicate-properties
   background-size: 10px;
   background-position: right;
   background-repeat: no-repeat;
