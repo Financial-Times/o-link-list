@@ -17,14 +17,16 @@
 	},
 	"demos": [
 		{
-		"name": "navigation",
-		"description": "A list of links to be used in navigation",
-		"template": "demos/src/navigation-list.mustache"
+			"title": "Navigation",
+			"name": "navigation",
+			"description": "A list of links to be used in navigation",
+			"template": "demos/src/navigation-list.mustache"
 		},
 		{
-		"name": "aside",
-		"description": "A list of links to be used outside of navigation. This demo includes the semantic mark-up for a list and would be appropriate for a non-navigational list of links, as seen in an aside",
-		"template": "demos/src/aside-list.mustache"
+			"title": "Aside",
+			"name": "aside",
+			"description": "A list of links to be used outside of navigation. This demo includes the semantic mark-up for a list and would be appropriate for a non-navigational list of links, as seen in an aside",
+			"template": "demos/src/aside-list.mustache"
 		}
 	]
 }
