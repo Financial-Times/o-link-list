@@ -5,7 +5,7 @@
 	"support": "https://github.com/Financial-Times/o-link-list/issues",
 	"supportContact": {
 		"email": "origami.support@ft.com",
-		"slack": "financialtimes/ft-origami"
+		"slack": "financialtimes/origami-support"
 	},
 	"supportStatus": "dead",
 	"ci": {
