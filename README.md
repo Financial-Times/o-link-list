@@ -1,5 +1,7 @@
 # o-link-list [![Build Status](https://circleci.com/gh/Financial-Times/o-link-list.png?style=shield&circle-token=34ef68c62eb057caad5ece702c6078b2708d4647)](https://circleci.com/gh/Financial-Times/o-link-list) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](#licence)
 
+_Deprecated, please speak to the Origami team if you would like to use a component like o-link-list._
+
 Styles for lists of links typically used in navigation elements and asides.
 
 - [Usage](#usage)
@@ -68,7 +70,7 @@ V1 -> V2 introduces the new major of o-colors. Updating to this new version will
 
 ## Contact
 
-If you have any questions or comments about this component, or need help using it, please either [raise an issue](https://github.com/Financial-Times/o-link-list/issues), visit [#ft-origami](https://financialtimes.slack.com/messages/ft-origami/) or email [Origami Support](mailto:origami-support@ft.com).
+If you have any questions or comments about this component, or need help using it, please either [raise an issue](https://github.com/Financial-Times/o-link-list/issues), visit [#origami-support](https://financialtimes.slack.com/messages/origami-support/) or email [Origami Support](mailto:origami-support@ft.com).
 
 ----
 
